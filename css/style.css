@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", "Arial", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #000000;
+}
+header .center {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin: 0px auto;
+}
+header .center #logo img {
+  height: 150px;
+}
+header .center nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .center nav ul {
+  list-style-type: none;
+}
+header .center nav ul li {
+  display: inline-block;
+  font-size: 25px;
+  padding: 3px 7px;
+  text-align: center;
+}
+header .center nav ul li a {
+  text-decoration: none;
+  color: #D13339;
+}
+header .center nav ul li a:hover {
+  color: #FFFFFF;
+  transition: 0.5s all ease;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  font-size: 2rem;
+}
+#hero .welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#hero .welcome h1 {
+  color: #FFFFFF;
+  font-style: italic;
+  font-weight: 900;
+}
+#hero .welcome p {
+  padding: 5px;
+  background-color: #D13339;
+  color: #FFFFFF;
+  text-align: center;
+  display: inline-block;
+}
+
+.about-me {
+  background-color: #D13339;
+}
+.about-me h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+}
+.about-me .center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  margin: 0px auto;
+}
+.about-me .center .slika-autor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 46%;
+  margin-bottom: 2%;
+}
+.about-me .center .slika-autor img {
+  width: 325px;
+  height: 450px;
+  border-radius: 30px;
+}
+.about-me .center .tekst-autor {
+  font-size: 25px;
+  text-align: center;
+  width: 46%;
+}
+.about-me .center .tekst-autor .special {
+  color: #FFFFFF;
+}
+
+.services {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.services h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+}
+.services .drzac-usluge {
+  width: 75%;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.services .drzac-usluge .usluge {
+  width: 20%;
+  margin: 2%;
+  text-align: center;
+  background-color: #D13339;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 17px;
+  transition: transform 0.3s ease;
+}
+.services .drzac-usluge .usluge h2 {
+  margin-bottom: 5px;
+}
+.services .drzac-usluge .usluge:hover {
+  transform: scale(1.2);
+}
+.services .drzac-usluge .usluge img {
+  height: 70px;
+}
+
+.projekti {
+  background-color: #D13339;
+}
+.projekti h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+}
+.projekti .drzac-projekti {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.projekti .drzac-projekti .projekat {
+  width: 38%;
+  margin: 2%;
+  border-radius: 30px;
+}
+.projekti .drzac-projekti .projekat:hover {
+  transition: box-shadow 2s;
+  box-shadow: -1px -1px 5px 9px #FFFFFF;
+}
+.projekti .drzac-projekti .projekat img {
+  width: 100%;
+  height: 300px;
+  border-radius: 30px 30px 0px 0px;
+}
+.projekti .drzac-projekti .projekat figcaption {
+  width: 100%;
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.kontakt {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+.kontakt h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+}
+.kontakt .drzac-kontakt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+}
+.kontakt .drzac-kontakt .kontaktiraj-me .socials {
+  margin-top: 2%;
+}
+.kontakt .drzac-kontakt .kontaktiraj-me .socials a {
+  color: #D13339;
+  padding-left: 2%;
+}
+.kontakt .drzac-kontakt .kontaktiraj-me .socials a:hover {
+  color: #FFFFFF;
+  transition: 0.5s all ease;
+}
+.kontakt .drzac-kontakt .kontaktiraj-me span {
+  color: #D13339;
+  margin-right: 2px;
+  font-size: 35px;
+}
+.kontakt .drzac-kontakt .forma {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0px;
+}
+.kontakt .drzac-kontakt .forma div {
+  width: 500px;
+  margin: 2%;
+}
+.kontakt .drzac-kontakt .forma div input {
+  width: 100%;
+  padding: 10px 13px;
+}
+.kontakt .drzac-kontakt .forma div input[type=submit] {
+  background-color: #D13339;
+}
+.kontakt .drzac-kontakt .forma div input[type=submit]:hover {
+  background-color: #a1240b;
+  color: #FFFFFF;
+  transition: 0.5s all ease;
+}
+.kontakt .drzac-kontakt .forma div textarea {
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  border-top: 1px solid #D13339;
+}
+footer .drzac-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto;
+}
+footer .drzac-footer .logo img {
+  height: 125px;
+}
+footer .drzac-footer .more-links {
+  font-size: 30px;
+}
+footer .drzac-footer .more-links a {
+  color: #FFFFFF;
+  padding: 0px 5px;
+}
+footer .drzac-footer .more-links a:hover {
+  transition: 0.5s all ease;
+  color: #D13339;
+}
+footer p {
+  text-align: center;
+  font-size: 25px;
+  padding: 5px 10px;
+  font-style: italic;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  color: #000000;
+}
+.arrow:hover {
+  color: #D13339;
+}
+.arrow .circle {
+  background-color: #FFFFFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.arrow .circle span {
+  font-size: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #D13339;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #ccc;
+}/*# sourceMappingURL=style.css.map */
