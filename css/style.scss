@@ -159,9 +159,10 @@ header{
         .projekat{
             width: 38%;
             margin: 2%;
+            border-radius: 30px;
             box-shadow: 0 0 1px $bela;
-            transition: box-shadow 2s;
             &:hover{
+                transition: box-shadow 2s;
                 box-shadow: $bela -1px -1px 5px 9px;
             }
             img{
