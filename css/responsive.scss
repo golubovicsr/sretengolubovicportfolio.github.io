@@ -116,11 +116,11 @@
                 align-items: center;
                 .slika-autor{
                     width: 96%;
-                    margin-bottom: 2%;
+                    margin-bottom: 5%;
                 }
                 .tekst-autor{
                    width: 96%;
-                   margin-bottom: 2%;
+                   margin-bottom: 5%;
                 }
             }
         }
@@ -187,6 +187,10 @@
             .slika-autor{
                 width: 90%;
             }
+            .tekst-autor{
+                margin-bottom: 5%;
+            }
+                
         }
     }
     .services .drzac-usluge{
