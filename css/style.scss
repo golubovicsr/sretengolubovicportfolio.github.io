@@ -7,10 +7,11 @@
     scroll-behavior: smooth;
 }
 $crvena: #D13339;
-$bela: #FFFFFF;
+$bela: #e2e2e2;
 $crna: #000000;
 header{
     background-color: $crna;
+   
     .center{
         display: flex;
         justify-content: space-around;
@@ -50,7 +51,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/hero.jpg");
+    background-image: url("../img/hero2.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -61,26 +62,27 @@ header{
         align-items: center;
         justify-content: center;
         h1{
-            color: $bela;
+            color: #FFFFFF;
             font-style: italic;
             font-weight: 900;
         }
         p{
             padding: 5px;
             background-color: $crvena;
-            color: $bela;
+            color: #FFFFFF;
             text-align: center;
             display: inline-block;
         }
     }
 }
 .about-me{
-    background-color: $crvena;
+    background-color: $bela;
 
     h2{
         text-align: center;
         padding: 50px;
         font-size: 3rem;
+        color: $crna;
     }
     .center{
         display: flex;
@@ -105,7 +107,7 @@ header{
                 text-align: center;
                 width: 46%;
                 .special{
-                    color: $bela;
+                    color: $crvena;
                 }
             }   
     }  
@@ -117,6 +119,7 @@ header{
         text-align: center;
         padding: 50px;
         font-size: 3rem;
+        color: $bela;
     }
     .drzac-usluge{
         width: 75%;
@@ -128,7 +131,8 @@ header{
             width: 20%;
             margin: 2%;
             text-align: center;
-            background-color: $crvena;
+            background-color: $bela;
+            color: $crna;
             padding: 15px;
             border-radius: 15px;
             font-size: 17px;
@@ -146,7 +150,7 @@ header{
     }
 }
 .projekti{
-    background-color: $crvena;
+    background-color: $bela;
     h2{
         text-align: center;
         padding: 50px;
@@ -162,7 +166,7 @@ header{
             border-radius: 30px;
             &:hover{
                 transition: box-shadow 2s;
-                box-shadow: -1px -1px 5px 9px $bela;
+                box-shadow: -1px -1px 5px 9px $crna;
                 }
             img{
                 width: 100%;;
